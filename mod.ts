@@ -1,7 +1,7 @@
 import { createRequire } from "https://deno.land/std@0.88.0/node/module.ts";
 import { Buffer } from "https://deno.land/std@0.88.0/node/buffer.ts";
 
-const require = createRequire(import.meta.url);
+const require = createRequire(Deno.mainModule);
 const Parser = require("./lib/parser.js");
 const NodeBufferStream = require("./lib/bufferstream");
 
