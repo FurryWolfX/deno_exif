@@ -1,0 +1,20 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "@types/node": "@types/node@18.16.19",
+      "exif-parser": "exif-parser@0.1.12"
+    },
+    "packages": {
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      },
+      "exif-parser@0.1.12": {
+        "integrity": "sha512-c2bQfLNbMzLPmzQuOr8fy0csy84WmwnER81W88DzTp9CYNPJ6yzOj2EZAh9pywYpqHnshVLHQJ8WzldAyfY+Iw==",
+        "dependencies": {}
+      }
+    }
+  }
+}
